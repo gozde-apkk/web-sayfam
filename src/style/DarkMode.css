@@ -1,0 +1,98 @@
+
+body.dark-mode {
+    background-color: #252128;
+    color: #ffffff;
+  }
+  
+  .footer.dark-mode {
+    background-color: #141414;
+    color: #aebccf;
+  }
+  .modeText.dark-mode {
+    color: #d9d9d9;
+  }
+  .lang.dark-mode {
+    color: #bab2e7;
+  }
+  .footer.dark-mode h3 {
+    color: #aebccf;
+  }
+  .emailrow.dark-mode {
+    color: #bab2e7;
+  }
+  .sagF1.dark-mode {
+    color: #bab2e7;
+  }
+  .logo.dark-mode {
+    color: #8f88ff;
+    background-color: #4731d3;
+  }
+  .line.dark-mode {
+    border-top: 1px solid #6b7280;
+  }
+  .isim.dark-mode p {
+    color: #6b7280;
+  }
+  .headerNav.dark-mode a:last-child {
+    background: #ffffff;
+    border: 1px solid #3730a3;
+    border-radius: 6px;
+  }
+  
+  .heroLeft.dark-mode h2 {
+    color: #aebccf;
+  }
+  .skills.dark-mode h3 {
+    color: #aebccf;
+  }
+  .skills.dark-mode h4 {
+    color: #aebccf;
+  }
+  .profileLine.dark-mode {
+    border-top: 1px solid #6b7280;
+  }
+  .profile.dark-mode h3 {
+    color: #aebccf;
+  }
+  .profile.dark-mode h4 {
+    color: #aebccf;
+  }
+  .profile.dark-mode p {
+    color: #aebccf;
+  }
+  .projects.dark-mode h3 {
+    color: #aebccf;
+  }
+  .projects.dark-mode h4 {
+    color: #aebccf;
+  }
+  .projeskill.dark-mode p {
+    color: #393e45;
+  }
+  .projects.dark-mode .profileLine {
+    border-top: 1px solid #6b7280;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .hero,
+    .buttons,
+    .skills,
+    .skillsList,
+    .profile,
+    .profileBox1,
+    .projects,
+    .projects-list,
+    .footer,
+    .rectangle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }

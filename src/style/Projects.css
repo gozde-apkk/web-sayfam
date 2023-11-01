@@ -1,0 +1,122 @@
+
+.projects {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .projects h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+  
+    color: #1f2937;
+  }
+  
+  .cart-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 3rem;
+  }
+  
+  .projects-list img {
+    width: 19rem;
+    height: 11rem;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .projects-list h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    width: 15rem;
+    height: 2rem;
+    color: #4338ca;
+  }
+  
+  .description{
+    width: 19rem;
+    height: 6rem;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+  
+    color: #6b7280;
+  }
+  
+  .projeskill {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0px;
+  
+    font-family: "Inter";
+  }
+  
+  .projeskill p {
+    box-sizing: border-box;
+    font-size: 13px;
+    /* Auto layout */
+    color: #3730a3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 18px 7px;
+    gap: 10px;
+  
+    width: 90px;
+    height: 27px;
+  
+    background: #ffffff;
+    border: 1px solid #3730a3;
+    border-radius: 4px;
+  }
+  
+  .project-details {
+    font-family: "Inter";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  
+  .project-details p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+  
+    text-decoration-line: underline;
+  
+    /* Default/indigo/800 */
+  
+    color: #3730a3;
+  }

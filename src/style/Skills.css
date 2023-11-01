@@ -1,0 +1,62 @@
+
+.skills {
+    padding-top: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .skills h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+  
+    color: #1f2937;
+  }
+  
+  .skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skillsListGroup {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 19rem;
+    height: 6.5rem;
+  }
+  
+  .skillsListGroup h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    width: 15rem;
+    height: 2rem;
+  
+    color: #4338ca;
+  }
+  
+  .skillsListGroup p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+  
+    /* Default/gray/500 */
+  
+    color: #6b7280;
+  }
+  

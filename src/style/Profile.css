@@ -1,0 +1,119 @@
+
+.profile {
+    padding-top: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .profileLine {
+    border: none;
+    border-top: 1px solid #3730a3;
+    margin: 1rem 0;
+    width: 100%;
+    display: block;
+  }
+  
+  .profile h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+  
+    color: #1f2937;
+  }
+  
+  .profileBox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 11rem;
+  }
+  
+  .profileBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .profileBox h4,
+  .about-me h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    width: 15rem;
+    height: 2rem;
+    color: #4338ca;
+  }
+  
+  .dogumTarihi {
+    display: flex;
+  }
+  
+  .solBolum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 200%;
+    /* or 36px */
+    width: 12rem;
+  
+    letter-spacing: 0.01em;
+  
+    color: #000000;
+  }
+  
+  .solBolum p {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .sagBolum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    width: 10rem;
+    /* or 36px */
+  
+    letter-spacing: 0.01em;
+  
+    color: #000000;
+  }
+  .sagBolum p {
+    margin: 0;
+  }
+  
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .about-me p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+  
+    /* Default/gray/500 */
+  
+    color: #6b7280;
+  }
