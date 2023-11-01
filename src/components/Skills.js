@@ -5,7 +5,7 @@ export default function Skills({ language }) {
     return language === "en" ? (
       <div className="skills">
         <h3>Skills</h3>
-        <div className="skillsList">
+        <div className="skillsList" style={{height:"150px"}}>
           {skillsData.map((skill) => (
             <div className="skillsListGroup" key={skill.name}>
               <h4>{skill.name}</h4>
@@ -15,8 +15,8 @@ export default function Skills({ language }) {
         </div>
       </div>
     ) : (
-      <div className="skills">
-        <h3>Skills</h3>
+      <div className="skills" style={{height:"287px"}}>
+        <h3>Yetenekler</h3>
         <div className="skillsList">
           {trSkillsData.map((skill) => (
             <div className="skillsListGroup" key={skill.name}>
