@@ -3,7 +3,7 @@
     padding-top: 6rem;
     padding-left: 10rem;
     padding-right: 10rem;
-    max-width: 1400px;
+    max-width: 1533px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -13,7 +13,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 56px;
     line-height: 48px;
     /* or 100% */
   
@@ -39,7 +39,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 28px;
     width: 15rem;
     height: 2rem;
@@ -51,7 +51,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 16px;
     /* or 133% */
   

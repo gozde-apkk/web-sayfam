@@ -15,20 +15,20 @@ return(
             <h3 className="intro">
                 Ekip olalım ve bir sonraki ürününüzü
           <br />
-          başarıya ulaştıralım
+          başarıya ulaştıralım...
             </h3>
 )}
           <div className="rectangle"> 
               <a className="email" href="mailto:gozde.apak@hotmail.com">
               <input type="image"  alt="Login"
           src="./icons/el.svg"></input>
-            <p className="emailrow">gozde.apak@hotmail.com</p>
+            <p style={{fontSize:"21px"}} className="emailrow">gozde.apak@hotmail.com</p>
          
                
               </a>
 
-               <nav className="rectangle_2">
-                   <a className="github"  href="https://github.com/gozde-apk" target="blank">Github</a>
+               <nav className="rectangle_2" style={{fontSize:"21px"}}>
+                   <a className="github"  href="https://github.com/gozde-apkk" target="blank">Github</a>
                    <a className="linkedin" target="blank" href="https://www.linkedin.com/in/g%C3%B6zde-apak-691395250/">Linkedin</a>
                </nav>
           </div>

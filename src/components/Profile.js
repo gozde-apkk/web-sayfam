@@ -8,30 +8,30 @@ export default function Profile({ language }) {
       <h3>{language === "en" ? "Profile" : "Profil"}</h3>
       <div className="profileBox1">
         <div className="profileBox">
-          <h4>{language === "en" ? "Profile" : "Profil"}</h4>
-          <div className="dogumTarihi">
+        <h4>{language === "en" ? "Profile" : "Profil"}</h4>
+          <div className="dogumTarihi" style={{width:"426px"}}>
             <div className="solBolum">
-              <p>{language === "en" ? "Date of birth" : "Doğum tarihi"}</p>
-              <p>{language === "en" ? "City of residence" : "İkamet şehrim"}</p>
-              <p>
-                {language === "en" ? "Educational status" : "Eğitim bilgilerim"}
-              </p>
-              <br />
-              <br />
-              <p>
-                {language === "en" ? "Preferred role" : "Tercih ettiğim rol"}
-              </p>
-            </div>
-            <div className="sagBolum">
-                <p>20.04.1997</p>
-                <p>Aydın</p>
-                <p>Dokuz Eylül Ekonom...<br/>
-                {language === "EN" ? "Licence": "Lisans" }, 2023
-                <br/>
-                <br/>
-                 </p>
-                 <p>Full Stack Devoloper</p>
-            </div>
+              <div className="piece">
+                 <p>{language === "en" ? "Date of birth" : "Doğum tarihi"}</p> 
+                 <p style={{position:"relative", marginRight:"124px"}}>20.04.1997</p>
+              </div>
+              <div className="piece">
+                 <p>{language === "en" ? "City of residence" : "İkamet şehrim"}</p>
+                 <p style={{position:"relative", marginRight:"165px"}}>Aydın</p>
+              </div> 
+              <div className="piece" style={{gap:"54px", lineHeight:"30px"}}>
+                  <p> {language === "en" ? "Educational status" : "Eğitim bilgilerim"}</p>
+                  <p style={{position:"relative", left:"45px"}}> {language === "EN" ? "Dokuz Eylül University-Bachelor Degree- Econometrics" : "Dokuz Eylül Üniversitesi Lisans-Ekonometri" }
+                    2023
+                    <br/>
+                  </p>
+              </div>
+              <div className="piece">
+                    <p>{language === "en" ? "Preferred role" : "Tercih ettiğim rol"}</p>
+                     <p style={{position:"relative", marginRight:"50px"}}>Full Stack Devoloper</p>
+              </div>
+          </div>
+           
             </div>
             </div>
             {language === "en" ? (
