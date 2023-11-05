@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Bio from "./components/Bio";
 import Profile from "./components/Profile";
 import Footer from './components/Footer';
+import Projects from "./components/Projects";
 
 import './App.css';
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Skills language={language}/>
       <Profile language={language}/>
       <div id= "projects"></div>
+      <Projects language={language} />
       <Footer language= {language}/>
      
     </div>

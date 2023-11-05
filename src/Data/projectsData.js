@@ -3,21 +3,21 @@
 export const  projectsData=  [
     
       {id:1,
-        imgsrc : "../img/calculator.png",
+        imgsrc : "./icons/calculator.png",
         title: " Calculator",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
         skills : ["JavaScript" , "redux", "react"],
-        github:"https://github.com/gozde-apk/fsweb-s10g1-reducer-calculator",
+        gitHub:"https://github.com/gozde-apkk/fsweb-s10g1-reducer-calculator",
        viewSite:"https://6480a8f4cb6c0c090be38277--genuine-fudge-92663c.netlify.app/",
     },
     
     { 
       id: 2,
-        imgsrc: "./icons/Programming.png",
+       
         title: "Movie Watchlist",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
         skills : ["JavaScript" , "redux", "react"],
-        github:"https://github.com/gozde-apk/fsweb-s10g3-redux-watchlist",
+        gitHub:"https://github.com/gozde-apk/fsweb-s10g3-redux-watchlist",
        viewSite:"",
       },
       {
@@ -28,27 +28,27 @@ export const  projectsData=  [
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
         gitHub:"",
-        viSite: "",
+        viewSite: "",
       },
       { 
         id:4,
-        imgsrc: "./icons/4899.jpg",
+     
         title: "",
         description:
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
         gitHub:"",
-        viSite: "",
+        viewSite: "",
       },
       {
         id:4,
-        imgsrc: "./icons/js_img.png",
+       
         title: "",
         description:
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
         gitHub:"",
-        viSite: "",
+        viewSite: "",
       },
     ];
  export const projectsDataTr = [
@@ -59,8 +59,8 @@ export const  projectsData=  [
       description:
         "A pizza ordering site that I made using routing, forms, cypress tests and css.",
       skills: ["JavaScript", "CSS", "Form"],
-      gitHub:"",
-      viSite: "",
+      gitHub:"https://github.com/gozde-apkk/fsweb-s10g1-reducer-calculator",
+       viewSite:"https://6480a8f4cb6c0c090be38277--genuine-fudge-92663c.netlify.app/",
     },
     {
       id:2,
@@ -70,7 +70,7 @@ export const  projectsData=  [
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
         gitHub:"",
-        viSite: "",
+        viewSite: "",
       },
       {
         id:3,
@@ -80,7 +80,7 @@ export const  projectsData=  [
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
         gitHub:"",
-        viSite: "",
+        viewSite: "",
       },
       {
         id:4,
@@ -90,7 +90,7 @@ export const  projectsData=  [
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
         gitHub:"",
-        viSite: "",
+        viewSite: "",
       },
       {
         id:5,
@@ -100,7 +100,7 @@ export const  projectsData=  [
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
         gitHub:"",
-        viSite: "",
+        viewSite: "",
       }
  ];
 
