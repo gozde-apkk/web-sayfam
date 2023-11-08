@@ -6,7 +6,7 @@ export const  projectsData=  [
         imgsrc : "./icons/calculator.png",
         title: " Calculator",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
-        skills : ["JavaScript" , "redux", "react"],
+        skills : ["JavaScript" , "React", "Redux"],
         gitHub:"https://github.com/gozde-apkk/fsweb-s10g1-reducer-calculator",
        viewSite:"https://6480a8f4cb6c0c090be38277--genuine-fudge-92663c.netlify.app/",
     },
@@ -16,9 +16,9 @@ export const  projectsData=  [
        
         title: "Movie Watchlist",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
-        skills : ["JavaScript" , "redux", "react"],
-        gitHub:"https://github.com/gozde-apk/fsweb-s10g3-redux-watchlist",
-       viewSite:"",
+        skills : ["JavaScript" , "React", "Redux"],
+        gitHub:"https://github.com/gozde-apkk/fsweb-s10g3-redux-watchlist",
+       viewSite:"https://654b908085c7662b186267eb--merry-taiyaki-293e4b.netlify.app/",
       },
       {
         id:3,
@@ -55,10 +55,10 @@ export const  projectsData=  [
     {
       id: 1,
       imgsrc: "./icons/calculatorpng",
-      title: "",
+      title: "Calculator",
       description:
-        "A pizza ordering site that I made using routing, forms, cypress tests and css.",
-      skills: ["JavaScript", "CSS", "Form"],
+        "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
+      skills: ["JavaScript" , "React", "Redux"],
       gitHub:"https://github.com/gozde-apkk/fsweb-s10g1-reducer-calculator",
        viewSite:"https://6480a8f4cb6c0c090be38277--genuine-fudge-92663c.netlify.app/",
     },
@@ -69,8 +69,8 @@ export const  projectsData=  [
         description:
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
         skills: ["JavaScript", "CSS", "Form"],
-        gitHub:"",
-        viewSite: "",
+        gitHub:"https://github.com/gozde-apkk/fsweb-s10g3-redux-watchlist",
+        viewSite: "https://654b908085c7662b186267eb--merry-taiyaki-293e4b.netlify.app/",
       },
       {
         id:3,

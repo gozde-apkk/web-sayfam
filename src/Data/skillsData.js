@@ -1,65 +1,87 @@
 export const skillsData = [
   {
-    name: "Java Script",
-    description:
-      "A versatile programming language commonly used for web development. Used to create interactive user interfaces and dynamic websites.",
+    id:1,
+    imgsrc: "./icons/pngwing.com.png",
+    name: "JavaScript"
+    
   },
   {
-    name: "React.Js",
-    description:
-      "A popular JavaScript library used for building user interfaces. Allows for efficient and reusable components that update in real time.",
+    id:2,
+    img: "./icons/pngwing.com(1).png",
+    name: "React.Js"
+   
   },
   {
-    name: "Redux",
-    description:
-      "A predictable state container for JavaScript apps. Used to manage application state in large-scale and complex projects.",
+    id:3,
+    img: "",
+    name: "Redux"
+    
   },
   {
-    name: "CSS",
-    description:
-      "A styling language used to create visually appealing and responsive websites. Allows for the separation of presentation and content.",
+    id:4,
+    img: "",
+    name: "CSS"
+   
   },
   {
-    name: "HTML",
-    description:
-      "The standard markup language used for creating web pages. Provides the structure and content of a webpage.",
+    id:5,
+    img: "",
+    name: "HTML"
+   
   },
   {
-    name: "Python",
-    description:
-      "A high-level programming language used for a variety of purposes, from web development to data analysis and machine learning.",
+    id:6,
+    img: "",
+    name: "Java"
+   
   },
+  {
+    id:7,
+    img: "",
+    name: "Spring Boot"
+  },
+  {
+    id:8,
+    img :"",
+    name : "Express"
+  }
 ];
 
 export  const trSkillsData = [
   {
-    name: "Java Script",
-    description:
-      "Web geliştirme için yaygın olarak kullanılan çok yönlü bir programlama dili. Etkileşimli kullanıcı arayüzleri ve dinamik web siteleri oluşturmak için kullanılır.",
+    img : "./icons/pngwing.com.png",
+    name: "Java Script"
   },
   {
-    name: "React.Js",
-    description:
-      "Kullanıcı arabirimleri oluşturmak için kullanılan popüler bir JavaScript kitaplığı. Gerçek zamanlı olarak güncellenen verimli ve yeniden kullanılabilir bileşenlere izin verir.",
+    img: "",
+    name: "React.Js"
+    
   },
   {
-    name: "Redux",
-    description:
-      "JavaScript uygulamaları için öngörülebilir bir durum kabı. Büyük ölçekli ve karmaşık projelerde uygulama durumunu yönetmek için kullanılır.",
+    img: "",
+    name: "Redux"
   },
   {
+    img: "0",
     name: "CSS",
-    description:
-      "Görsel olarak çekici ve duyarlı web siteleri oluşturmak için kullanılan bir stil dili. Sunum ve içeriğin ayrılmasını sağlar.",
+    
   },
   {
-    name: "HTML",
-    description:
-      "Web sayfaları oluşturmak için kullanılan standart biçimlendirme dili. Bir web sayfasının yapısını ve içeriğini sağlar.",
+    img:"",
+    name: "HTML5"
   },
   {
-    name: "Python",
-    description:
-      "Web geliştirmeden veri analizine ve makine öğrenimine kadar çeşitli amaçlar için kullanılan üst düzey bir programlama dili.",
+    img : "",
+    name: "Java"
+   
   },
+  {
+    img : "",
+    name : "Spring Boot"
+    
+  },
+  {
+    img:"",
+    name : "Express"
+  }
 ];

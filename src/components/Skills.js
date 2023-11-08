@@ -7,9 +7,10 @@ export default function Skills({ language }) {
         <h3>Skills</h3>
         <div className="skillsList" style={{height:"150px"}}>
           {skillsData.map((skill) => (
-            <div className="skillsListGroup" key={skill.name}>
+            <div className="skillsListGroup" key={skill.id} >
               <h4>{skill.name}</h4>
-              <p>{skill.description}</p>
+             <input style={{width: "auto"}} type="image" id="image" alt="Login"
+          src={skill.imgsrc}></input>
             </div>
           ))}
         </div>
