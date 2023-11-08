@@ -7,31 +7,31 @@ export const skillsData = [
   },
   {
     id:2,
-    img: "./icons/pngwing.com(1).png",
+    imgsrc: "./icons/react.png",
     name: "React.Js"
    
   },
   {
     id:3,
-    img: "",
+    imgsrc: "./icons/redux.png.png",
     name: "Redux"
     
   },
   {
     id:4,
-    img: "",
+    imgsrc: "./icons/css.png",
     name: "CSS"
    
   },
   {
     id:5,
-    img: "",
+    imgsrc: "./icons/html.png",
     name: "HTML"
    
   },
   {
     id:6,
-    img: "",
+    img: "./icon/java.png",
     name: "Java"
    
   },
