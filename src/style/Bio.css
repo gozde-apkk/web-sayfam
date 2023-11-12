@@ -160,12 +160,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 520px;
     margin: 0;
     padding: 0;
-    width: 400px;
-    height: 300px;
-    object-fit: contain;
+    width: 589px;
+    height: 311px;
+    object-fit: cover;
     position: relative;
     left: 76px;
   }

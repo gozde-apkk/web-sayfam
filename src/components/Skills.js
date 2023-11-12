@@ -9,8 +9,9 @@ export default function Skills({ language }) {
           {skillsData.map((skill) => (
             <div className="skillsListGroup" key={skill.id} >
               <h4>{skill.name}</h4>
-             <input  type="image" id="image" alt="Login"
-          src={skill.imgsrc}></input>
+             <input className="skill-img"  type="image" id="image" alt="Login"
+          src={skill.imgsrc}>
+          </input>
             </div>
           ))}
         </div>

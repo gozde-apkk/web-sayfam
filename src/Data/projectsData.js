@@ -3,6 +3,7 @@
 export const  projectsData=  [
     
       {id:1,
+        type : "project1",
         imgsrc : "./icons/calculator.png",
         title: " Calculator",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
@@ -13,7 +14,8 @@ export const  projectsData=  [
     
     { 
       id: 2,
-       
+      type : "project2",
+       imgsrc:"./icons/watchlist.png",
         title: "Movie Watchlist",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
         skills : ["JavaScript" , "React", "Redux"],
@@ -22,6 +24,7 @@ export const  projectsData=  [
       },
       {
         id:3,
+        type : "project3",
         imgsrc: "./icons/team.png",
         title: "team",
         description:
@@ -32,7 +35,7 @@ export const  projectsData=  [
       },
       { 
         id:4,
-     
+        type : "project4",
         title: "",
         description:
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",
@@ -42,7 +45,7 @@ export const  projectsData=  [
       },
       {
         id:4,
-       
+        type : "project5",
         title: "",
         description:
           "A pizza ordering site that I made using routing, forms, cypress tests and css.",

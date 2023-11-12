@@ -9,7 +9,14 @@
     gap: 3rem;
     transition: scroll-behavior .5s ease-in-out;
   }
-  
+
+  .skill-img{
+    width: 90px;
+  }
+#img.skill-img { 
+  position: relative;
+  left: 10px;
+}
   .skills h3 {
     font-family: "Inter";
     font-style: normal;
@@ -32,9 +39,9 @@
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     width: 15rem;
-    height: 6.5rem;
+    height: 14.5rem;
     opacity: 1;
     transform: none;
     transition-property: opacity,transform,-webkit-transform;

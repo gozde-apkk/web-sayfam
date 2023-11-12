@@ -100,7 +100,7 @@ export default function Bio({ language }) {
           </div>
             )}
         </div>
-               <img className="img-photo" src="/icons/me.jpg" alt="photo"/>
+               <img className="img-photo" src="/icons/me.jpeg" alt="photo"/>
        </div>
     );
             }
