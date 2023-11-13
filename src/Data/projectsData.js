@@ -3,7 +3,20 @@
 export const  projectsData=  [
     
       {id:1,
-        type : "project1",
+        style : {
+          type: "project1",
+          color: 'blue',
+          description: {
+           position: 'relative',
+          left: '16px',
+         },
+         title : {
+          width: '130px',
+          height: '26px',
+          position : 'relative',
+          left : '101px'
+         },
+        },
         imgsrc : "./icons/calculator.png",
         title: " Calculator",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
@@ -14,7 +27,15 @@ export const  projectsData=  [
     
     { 
       id: 2,
-      type : "project2",
+      style : {
+        type : "project2",
+        title : {
+          width : '208px',
+          height : '26px',
+          position : 'relative',
+          left : '67px'
+        },
+      },
        imgsrc:"./icons/watchlist.png",
         title: "Movie Watchlist",
         description:  "In this project, I created a simple calculator application that can add, multiply, subtract and subtract numbers in any order, as well as add save and callback features.,",
