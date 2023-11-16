@@ -1,7 +1,7 @@
 export const skillsData = [
   {
     id:1,
-    imgsrc: "./icons/js.png",
+    imgsrc: "./icons/js_img.png",
     name: "JavaScript"
     
   },
@@ -19,13 +19,13 @@ export const skillsData = [
   },
   {
     id:4,
-    imgsrc: "./icons/css3.png",
+    imgsrc: "./icons/css.png",
     name: "CSS"
    
   },
   {
     id:5,
-    imgsrc: "./icons/html.png",
+    imgsrc: "./icons/html5.png",
     name: "HTML"
    
   },
@@ -37,12 +37,12 @@ export const skillsData = [
   },
   {
     id:7,
-    imgsrc: "./icons/spring.png",
+    imgsrc: "./icons/spring-icon.png",
     name: "Spring Boot"
   },
   {
     id:8,
-    imgsrc :"./icons/pngwing.com.png",
+    imgsrc :"./icons/node.js.png",
     name : "Node.js"
   }
 ];

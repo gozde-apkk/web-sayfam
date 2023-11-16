@@ -4,9 +4,10 @@
     padding-left: 10rem;
     padding-right: 10rem;
     max-width: 1533px;
+    height: 46rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 8rem;
     transition: scroll-behavior .5s ease-in-out;
   }
 
@@ -23,6 +24,9 @@
     font-weight: 600;
     font-size: 56px;
     line-height: 48px;
+    position: relative;
+    left: 61rem;
+    height: 58px;
     /* or 100% */
   
     color: #1f2937;
@@ -30,9 +34,12 @@
   
   .skillsList {
     display: flex;
-    flex-wrap: wrap;
+   
     justify-content: space-between;
-    height: 195px;
+    height: 343px;
+    width: 1212px;
+    position: relative;
+    left: 8rem;
   }
   
   .skillsListGroup {
@@ -40,14 +47,15 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    width: 15rem;
     height: 14.5rem;
     opacity: 1;
-    transform: none;
-    transition-property: opacity,transform,-webkit-transform;
-    transition-duration: 2s;
+    
   }
   
+  #image {
+    width: 50px;
+    height: 50px;
+  }
   .skillsListGroup h4 {
     font-family: "Inter";
     font-style: normal;

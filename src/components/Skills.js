@@ -5,13 +5,14 @@ export default function Skills({ language }) {
     return language === "en" ? (
       <div className="skills">
         <h3>Skills</h3>
-        <div className="skillsList" style={{height:"150px"}}>
+        <div className="skillsList">
           {skillsData.map((skill) => (
             <div className="skillsListGroup" key={skill.id} >
               <h4>{skill.name}</h4>
-             <input className="skill-img"  type="image" id="image" alt="Login"
-          src={skill.imgsrc}>
-          </input>
+               <input className="skill-img"  type="image" id="image" alt="Login"
+                     src={skill.imgsrc}>
+                </input>
+               
             </div>
           ))}
         </div>
