@@ -1,5 +1,30 @@
 
 
+
+/*****
+ * ,
+      { 
+        id:4,
+        type : "project4",
+        title: "",
+        description:
+          "A pizza ordering site that I made using routing, forms, cypress tests and css.",
+        skills: ["JavaScript", "CSS", "Form"],
+        gitHub:"",
+        viewSite: "",
+      },
+      {
+        id:4,
+        type : "project5",
+        title: "",
+        description:
+          "A pizza ordering site that I made using routing, forms, cypress tests and css.",
+        skills: ["JavaScript", "CSS", "Form"],
+        gitHub:"",
+        viewSite: "",
+      },
+ */
+
 export const  projectsData=  [
     
       {id:1,
@@ -45,35 +70,23 @@ export const  projectsData=  [
       },
       {
         id:3,
-        type : "project3",
-        imgsrc: "./icons/team.png",
-        title: "team",
+        style : {
+          type : "project3",
+          title : {
+            width : '208px',
+            height : '26px',
+            position : 'relative',
+            left : '67px'
+          },
+        },
+        imgsrc: "./icons/todoapp.png",
+        title: "Todo App",
         description:
-          "A pizza ordering site that I made using routing, forms, cypress tests and css.",
-        skills: ["JavaScript", "CSS", "Form"],
-        gitHub:"",
-        viewSite: "",
-      },
-      { 
-        id:4,
-        type : "project4",
-        title: "",
-        description:
-          "A pizza ordering site that I made using routing, forms, cypress tests and css.",
-        skills: ["JavaScript", "CSS", "Form"],
-        gitHub:"",
-        viewSite: "",
-      },
-      {
-        id:4,
-        type : "project5",
-        title: "",
-        description:
-          "A pizza ordering site that I made using routing, forms, cypress tests and css.",
-        skills: ["JavaScript", "CSS", "Form"],
-        gitHub:"",
-        viewSite: "",
-      },
+          " In the UI, a to-do box can be added, a new note can be added, a to-do list can be specified, and a new contact can be added. ",
+        skills: ["JavaScript", "Toastify", "DateFNS", "useForm"],
+        gitHub:"https://github.com/gozde-apkk/fsweb-s9g2-task-yonetimi-2",
+        viewSite: "https://todoapp-sand-tau.vercel.app/",
+      }
     ];
  export const projectsDataTr = [
     {

@@ -11,6 +11,9 @@ export default function Header({ language }) {
           <Link to="skills" smooth={true} duration={1000}>
             Skills
           </Link>
+          <Link to="profile" smooth={true} duration={1000}>
+            Profile
+          </Link>
           <Link to="projects" smooth={true} duration={2000}>
             Projects
           </Link>
@@ -22,6 +25,9 @@ export default function Header({ language }) {
         <nav className="headerNav">
           <Link to="skills" smooth={true} duration={1000}>
             Yetenekler
+          </Link>
+          <Link to="profile" smooth={true} duration={1000}>
+            Profil
           </Link>
           <Link to="projects" smooth={true} duration={2000}>
             Projeler
