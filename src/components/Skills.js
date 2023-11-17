@@ -8,11 +8,15 @@ export default function Skills({ language }) {
         <div className="skillsList">
           {skillsData.map((skill) => (
             <div className="skillsListGroup" key={skill.id} >
-              <h4>{skill.name}</h4>
-               <input className="skill-img"  type="image" id="image" alt="Login"
-                     src={skill.imgsrc}>
-                </input>
-               
+              {skill.style && (
+                <>
+                  <h4 style={skill.style.name} >{skill.name}</h4>
+                  <input style={skill.style.imgsrc}  className="skill-img"  type="image" id="image" alt="Login"
+                        src={skill.imgsrc}>
+                   </input>
+                   </>
+              )}
+            
             </div>
           ))}
         </div>

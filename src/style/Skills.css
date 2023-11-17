@@ -4,7 +4,7 @@
     padding-left: 10rem;
     padding-right: 10rem;
     max-width: 1533px;
-    height: 46rem;
+    height: 57rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
@@ -12,9 +12,9 @@
   }
 
   .skill-img{
-    width: 90px;
+    width: 110px;
   }
-#img.skill-img { 
+  #img.skill-img { 
   position: relative;
   left: 10px;
 }
@@ -45,8 +45,7 @@
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    height: 14.5rem;
+    height: 18.5rem;
     opacity: 1;
     width: 20rem;
     align-items: center;
@@ -55,18 +54,14 @@
     
   }
   
-  #image {
-    width: 92px;
-    height: 65px;
-  }
   .skillsListGroup h4 {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 33px;
-    width: 9rem;
-    height: 2rem;
+    height: 38px;
+    width: 146px;
   
     color: #4338ca;
   }

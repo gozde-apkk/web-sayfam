@@ -28,7 +28,15 @@
   
     color: #1f2937;
   }
-  
+  .project_1 {
+    border: none;
+    border-top: 1px solid #3730a3;
+    margin: 1rem 0;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 18px;
+  }
   .cart-group {
     display: flex;
     flex-direction: row;
