@@ -7,7 +7,7 @@
     height: 46rem;
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+    gap: 6rem;
     transition: scroll-behavior .5s ease-in-out;
   }
 
@@ -34,12 +34,11 @@
   
   .skillsList {
     display: flex;
-   
+   width: 99rem;
     justify-content: space-between;
-    height: 343px;
-    width: 1212px;
     position: relative;
-    left: 8rem;
+    left: 19rem;
+    flex-wrap: wrap;
   }
   
   .skillsListGroup {
@@ -49,20 +48,24 @@
     gap: 3rem;
     height: 14.5rem;
     opacity: 1;
+    width: 20rem;
+    align-items: center;
+    align-content: normal;
+    flex-wrap: wrap;
     
   }
   
   #image {
-    width: 50px;
-    height: 50px;
+    width: 92px;
+    height: 65px;
   }
   .skillsListGroup h4 {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 28px;
-    width: 15rem;
+    font-size: 35px;
+    line-height: 33px;
+    width: 9rem;
     height: 2rem;
   
     color: #4338ca;

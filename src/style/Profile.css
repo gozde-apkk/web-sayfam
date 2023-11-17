@@ -1,12 +1,17 @@
 
 .profile {
-    padding-top: 6rem;
     padding-left: 10rem;
     padding-right: 10rem;
-    max-width: 1514px;
+    max-width: 153rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    height: 51rem;
+    background: #f4f4f4b0;
+   
+    padding-top: 23px;
+    position: relative;
+    top: 47px;
   }
   .profileLine {
     border: none;
@@ -17,6 +22,8 @@
   }
   
   .profile h3 {
+    position: relative;
+    left: 61rem;
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
@@ -31,13 +38,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 11rem;
+    gap: 8rem;
   }
   
   .profileBox {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 437px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 8px 8px #525252;
+    margin-bottom: 4.5rem;
+    margin-left: 11rem;
+    margin-top: 1.4rem;
+    height: 28rem;
   }
   
   .profileBox h4,
@@ -50,10 +65,15 @@
     width: 15rem;
     height: 3rem;
     color: #4338ca;
+    position: relative;
+    left: 50px;
+    top: 20px;
   }
   
   .dogumTarihi {
     display: flex;
+    width: 450px;
+    margin-top: 20px;
   }
   
   .solBolum {
@@ -125,10 +145,13 @@
   }
   
   .about-me p {
+    padding-left: 33px;
+    height: 239px;
+    padding-top: 14px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 150%;
     /* or 27px */
   

@@ -17,6 +17,8 @@
   }
   
   .projects h3 {
+    position: relative;
+    left: 60rem;
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;

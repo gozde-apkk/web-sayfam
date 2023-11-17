@@ -9,7 +9,7 @@ export default function Profile({ language }) {
       <div className="profileBox1">
         <div className="profileBox">
         <h4>{language === "en" ? "Profile" : "Profil"}</h4>
-          <div className="dogumTarihi" style={{width:"426px"}}>
+          <div className="dogumTarihi">
             <div className="solBolum">
               <div className="piece">
                  <p>{language === "en" ? "Date of birth" : "Doğum tarihi"}</p> 
@@ -36,7 +36,7 @@ export default function Profile({ language }) {
             </div>
             {language === "en" ? (
                 <div className="about-me"> 
-                <h4>About Me </h4>
+                <h4 style={{position:"relative", top:"16px", left:"34px"}}>About Me </h4>
                 <p>
                 I'm Gözde.I graduated from Dokuz Eylül University in 2023.
                   I am currently studying computer programming at Istanbul University.
